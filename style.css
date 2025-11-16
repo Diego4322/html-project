@@ -1,0 +1,76 @@
+/* ------------------------------
+   Body Styles
+   Sets the font, background, text alignment, and custom cursor
+------------------------------ */
+body {
+    font-family: Arial, sans-serif; /* Sets main font */
+    background-image: url('https://www.transparenttextures.com/patterns/asfalt-light.png'); /* Tiled background */
+    background-repeat: repeat; /* Repeat the background for a retro effect */
+    text-align: center; /* Center all text by default */
+    cursor: url('https://cur.cursors-4u.net/sports/spo-1/spo50.cur'), auto; /* Custom retro cursor */
+}
+
+/* ------------------------------
+   Headings Styles (h1, h2, h3)
+   Adds color and text shadow for a retro look
+------------------------------ */
+h1, h2, h3 {
+    color: #ff0099; /* Bright retro pink */
+    text-shadow: 2px 2px #000000; /* Shadow for a 3D effect */
+}
+
+/* ------------------------------
+   Paragraph Styles
+   Controls text color, font size, and spacing
+------------------------------ */
+p {
+    color: #222; /* Dark gray for readability */
+    font-size: 18px; /* Slightly larger font for retro style */
+    margin: 20px; /* Space around paragraphs */
+}
+
+/* ------
+   Image Styles
+   Adds border, padding, margin, and box shadow for images
+------- */
+img {
+    margin: 10px; /* Space around images */
+    border: 3px solid #ff66cc; /* Pink border for retro flair */
+    padding: 5px; /* Space between image and border */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4); /* Shadow for depth */
+}
+
+/* -----
+   List Styles (ul)
+   Styles unordered lists with background, borders, and shadows
+----- */
+ul {
+    list-style-type: square; /* Classic square bullet points */
+    background: #ffe6f7; /* Light pink background */
+    padding: 20px; /* Inner spacing */
+    width: 60%; /* Set width of the list */
+    margin: auto; /* Center the list horizontally */
+    border: 2px solid #ff66cc; /* Pink border around the list */
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.3); /* Shadow for 3D effect */
+}
+
+/* -------
+   Table Styles
+   Adds borders, background, spacing, and shadows
+------- */
+table {
+    margin: auto; /* Center the table */
+    background: #fff0fa; /* Light pink background for table */
+    border-collapse: collapse; /* Remove double borders */
+    width: 40%; /* Set table width */
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.3); /* Shadow for depth */
+}
+
+/* --
+   Table Cell Styles
+   Controls padding and borders for table cells
+--*/
+table th, table td {
+    border: 2px solid #ff66cc; /* Pink border for each cell */
+    padding: 10px; /* Space inside each cell */
+}
